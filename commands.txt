@@ -12,7 +12,7 @@ eksctl create iamserviceaccount \
     --cluster=eks-cluster-1 \
     --name=aws-load-balancer-controller \
     --namespace=kube-system \
-    --attach-policy-arn={AWS_POLICY_ARN} \
+    --attach-policy-arn={env.AWS_POLICY_ARN} \
     --approve
 
 --- 
