@@ -1,5 +1,5 @@
 # quote-app
-This repoisotry contains the configuration files necessary to deploy a simple quote application on AWS Elastic Kubernetes Service (EKS) using an AWS Elastic Load Balancer (ELB) with 3 replica servers. Each time you refresh the page, the application generates a random unique quote.
+This repoisotry contains the configuration files necessary to deploy a simple quote application on AWS Elastic Kubernetes Service (EKS) using an AWS Elastic Load Balancer (ELB) with 3 replica servers. Each time you refresh the page, the application generates a random unique quote. **The live URL has been suspended for cost purposes. This project will be migrated to AWS Lambda to reduce costs**.
 
 ## Prerequisites
 
